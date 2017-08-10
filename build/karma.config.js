@@ -18,7 +18,7 @@ const karmaConfig = {
     served   : true,
     included : true
   }],
-  frameworks: ['mocha'],
+  frameworks: ['mocha', 'es6-shim'],
   reporters: ['mocha'],
   preprocessors: {
     [TEST_BUNDLER]: ['webpack'],
